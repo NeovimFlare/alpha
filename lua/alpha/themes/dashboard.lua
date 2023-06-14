@@ -75,12 +75,12 @@ local buttons = {
     type = "group",
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
-        button("\ f f", "󰈞  Find file"),
-        button("\ f h", "󰊄  Recently opened files"),
-        button("\ f r", "  Frecency/MRU"),
-        button("\ f g", "󰈬  Find word"),
-        button("\ f m", "  Jump to bookmarks"),
-        button("\ s l", "  Open last session"),
+        button("\\ f f", "󰈞  Find file"),
+        button("\\ f h", "󰊄  Recently opened files"),
+        button("\\ f r", "  Frecency/MRU"),
+        button("\\ f g", "󰈬  Find word"),
+        button("\\ f m", "  Jump to bookmarks"),
+        button("\\ s l", "  Open last session"),
     },
     opts = {
         spacing = 1,
