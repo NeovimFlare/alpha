@@ -18,7 +18,7 @@ local default_header = {
     },
 }
 
-local leader = "SPC"
+local leader = "\"
 
 --- @param sc string
 --- @param txt string
