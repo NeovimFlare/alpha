@@ -36,7 +36,7 @@ local footer = {
     },
 }
 
-local leader = "SPC"
+local leader = "\"
 
 --- @param sc string
 --- @param txt string
@@ -75,12 +75,12 @@ local buttons = {
     type = "group",
     val = {
         button("e", "  New file", "<cmd>ene <CR>"),
-        button("SPC f f", "󰈞  Find file"),
-        button("SPC f h", "󰊄  Recently opened files"),
-        button("SPC f r", "  Frecency/MRU"),
-        button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "  Jump to bookmarks"),
-        button("SPC s l", "  Open last session"),
+        button("\ f f", "󰈞  Find file"),
+        button("\ f h", "󰊄  Recently opened files"),
+        button("\ f r", "  Frecency/MRU"),
+        button("\ f g", "󰈬  Find word"),
+        button("\ f m", "  Jump to bookmarks"),
+        button("\ s l", "  Open last session"),
     },
     opts = {
         spacing = 1,
