@@ -29,7 +29,6 @@ local default_header = {
 
 local footer = {
     type = "text",
-    val = "",
     opts = {
         position = "center",
         hl = "Number",
