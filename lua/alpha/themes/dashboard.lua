@@ -74,7 +74,7 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New file", "<cmd>ene<CR><cmd>ToggleTerm<CR><cmd>Neotree<CR>"),
+        button("e", "  New file", "<cmd>ene<CR><cmd>Neotree<CR><cmd>sleep 300m<CR><cmd>ToggleTerm<CR>"),
         button("SPC f f", "󰈞  Find file"),
         button("SPC f h", "󰊄  Recently opened files"),
         button("SPC f r", "  Frecency/MRU"),
