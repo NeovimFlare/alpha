@@ -81,7 +81,7 @@ local buttons = {
         button("SPC f g", "󰈬  Find word"),
         button("SPC f m", "  Jump to bookmarks"),
         button("SPC s l", "  Open last session"),
-        button("l", "󰒲 LazyPM", "<cmd>Lazy<cmd>"),
+        button("l", "󰒲  LazyPM", "<cmd>Lazy<CR>"),
     },
     opts = {
         spacing = 1,
