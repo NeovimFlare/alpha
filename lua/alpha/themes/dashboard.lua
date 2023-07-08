@@ -74,14 +74,14 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  New file", "<cmd>ene<CR><cmd>NvimTreeOpen<CR><cmd>ToggleTerm<CR>"),
+        button("e", "  New file", "<cmd>ene<CR><cmd>Neotree document_symbolsCR><cmd>ToggleTerm<CR>"),
         button("SPC f f", "󰈞  Find file"),
         button("SPC f h", "󰊄  Recently opened files"),
         button("SPC f r", "  Frecency/MRU"),
         button("SPC f g", "󰈬  Find word"),
-        button("SPC f m", "  Jump to bookmarks"),
         button("SPC s l", "  Open last session"),
         button("l", "󰒲  LazyPM", "<cmd>Lazy<CR>"),
+        button("q", "󰠜  Quit", "<cmd>q<CR>"),
     },
     opts = {
         spacing = 1,
