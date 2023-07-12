@@ -14,8 +14,6 @@ local default_terminal = {
 local default_header = {
     type = "text",
     val = {
-[[`""*$b..]]
-[[     ""*$o.]]
 [[         "$$o.]]
 [[           "*$$o.]]
 [[              "$$$o.]]
