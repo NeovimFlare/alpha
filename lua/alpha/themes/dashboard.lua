@@ -37,6 +37,7 @@ local default_header = {
 [[                                """"""""       ]]
 [[                           [- NEOFLARE -]                                  ]]
 [[                      "Clear your mind and code."                          ]]
+     }
     },
     opts = {
         position = "center",
